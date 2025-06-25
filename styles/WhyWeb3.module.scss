@@ -1,0 +1,42 @@
+.whyWeb3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+  flex-wrap: wrap;
+
+  .content {
+    flex: 1;
+    min-width: 300px;
+
+    h2 {
+      font-size: 2rem;
+
+      span {
+        color: #0bb15e;
+      }
+    }
+
+    p {
+      margin: 1rem 0;
+      max-width: 500px;
+    }
+
+    button {
+      background-color: #0bb15e;
+      color: white;
+      padding: 0.7rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+  }
+
+  img {
+    flex: 1;
+    max-width: 350px;
+    height: auto;
+    margin-top: 2rem;
+  }
+}
