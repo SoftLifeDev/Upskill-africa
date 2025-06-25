@@ -1,0 +1,47 @@
+.mission { 
+  padding: 3rem 2rem; 
+  text-align: center;
+‎
+‎h2 { 
+  font-size: 2rem; 
+  margin-bottom: 2rem;
+‎
+‎span {
+‎  color: #f75c03;
+‎}
+‎
+‎}
+‎
+‎.cards { 
+  display: flex; 
+  flex-direction: column; 
+  gap: 1.5rem;
+‎
+‎.card {
+‎  background: #fff;
+‎  border: 1px solid #eee;
+‎  padding: 1.5rem;
+‎  border-radius: 1rem;
+‎  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+‎
+‎  .icon {
+‎    font-size: 2rem;
+‎    margin-bottom: 1rem;
+‎  }
+‎
+‎  p {
+‎    font-size: 1rem;
+‎  }
+‎}
+‎
+‎}
+‎
+‎@media (min-width: 768px) { .cards { flex-direction: row; justify-content: space-between; }
+‎
+‎.card {
+‎  flex: 1;
+‎}
+‎
+‎} 
+}
+‎
