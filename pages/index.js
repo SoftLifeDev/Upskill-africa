@@ -2,6 +2,8 @@ import Head from 'next/head';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import WhyWeb3 from '@/components/WhyWeb3';
+import AboutSection from '@/components/AboutSection';
+import MissionSection from '@/components/MissionSection';
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
       <main>
         <Hero />
         <WhyWeb3 />
+        <AboutSection /> 
+        <MissionSection /> 
       </main>
     </>
   );
