@@ -1,0 +1,50 @@
+.impact {
+  padding: 3rem 2rem;
+  text-align: center;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+
+    span {
+      color: #16c784;
+      font-style: italic;
+    }
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    .card {
+      background: #fff;
+      border: 1px solid #eee;
+      border-radius: 1rem;
+      padding: 1.5rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+      text-align: left;
+
+      h3 {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        font-size: 1rem;
+        color: #333;
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    .cards {
+      flex-direction: row;
+      justify-content: space-between;
+
+      .card {
+        flex: 1;
+      }
+    }
+  }
+}
