@@ -4,6 +4,8 @@ import Hero from '@/components/Hero';
 import WhyWeb3 from '@/components/WhyWeb3';
 import AboutSection from '@/components/AboutSection';
 import MissionSection from '@/components/MissionSection';
+import ImpactSection from '@/components/ImpactSection';
+import JoinSection from '@/components/JoinSection';
 
 export default function Home() {
   return (
@@ -23,6 +25,8 @@ export default function Home() {
         <WhyWeb3 />
         <AboutSection /> 
         <MissionSection /> 
+        <ImpactSection />
+        <JoinSection />
       </main>
     </>
   );
